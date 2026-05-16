@@ -11,7 +11,7 @@ from aco_optimizer import ACORoutePlanner
 
 app = Flask(__name__)
 BASE = os.path.dirname(__file__)
-MODELS = os.path.join(BASE, "models")
+MODELS = BASE
 
 # ── Load artifacts ──────────────────────────────────────
 def load_artifacts():
